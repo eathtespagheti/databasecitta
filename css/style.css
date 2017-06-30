@@ -1,0 +1,111 @@
+body {
+    background: darkcyan;
+    color: whitesmoke;
+    font-family: monospace;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 3em;
+}
+
+h3:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+input:hover{
+    background: darkcyan;
+}
+
+h3 {
+    padding-top: 3vh;
+    display: inline;
+    color: whitesmoke;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+select {
+    margin-top: 16vh;
+    text-align: center;
+    border-radius: 0.5em;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    color: whitesmoke;
+    border: 0;
+    font-family: serif;
+    padding-left: 1vw;
+}
+
+option {
+    background: darkcyan;
+    color: whitesmoke;
+    border: 0;
+    font-family: serif;
+    border-radius: 0.5em;
+}
+
+table {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1.4em;
+    color: whitesmoke;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 0.5em;
+}
+
+input {
+    text-align: center;
+    border-radius: 0.5em;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    border: 0;
+    font-family: serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#eliminazione {
+    float: left;
+    padding-left: 2vw;
+}
+
+#aggiunta {
+    float: right;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    display: inline;
+}
+
+#home {
+    position: fixed;
+    bottom: 4vh;
+    left: 45vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    color: whitesmoke;
+    font-size: 1.5em;
+    display: inline;
+    margin-right: 2vw;
+}
+
+#stato {
+    margin: auto;
+    margin-bottom: 2vh;
+}
